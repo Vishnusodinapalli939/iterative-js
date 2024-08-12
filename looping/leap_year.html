@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("enter a year");
+        if(a>500 && a<=2024)
+            if(a%4==0 && a%100!=0 || a%400==0){
+                alert("leap year");
+            }
+            else{
+                alert("not a leap year");
+            }
+        else{
+            alert("year should be range between 500 and 2024");
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str=prompt("enter a string");
+        let str1="";
+        for(i=1;i<=str.length;i++){
+                str1+=str[str.length-i];
+                
+        }
+        console.log(str1);
+       
+        if(str1==str)
+            alert("palindrome");
+        else
+            alert("not a palindrome");
+        
+        
+        // //alert(rev);
+        // if(temp==rev)
+        //     alert("polindrome");
+        // else
+        //     alert("not a polindrome");
+    </script>
+</body>
+</html>
